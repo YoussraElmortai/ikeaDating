@@ -1,0 +1,28 @@
+/* :root{
+
+} */
+
+* {
+    background: rgb(230, 218, 190);
+}
+
+body {
+    padding: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+
+    & a {
+        text-decoration: none;
+        padding: 1rem;
+        text-wrap: nowrap;
+        color: aliceblue;
+        background: blue;
+        border-radius: 1.5rem;
+        width: fit-content;
+    }
+}
